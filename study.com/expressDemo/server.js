@@ -81,3 +81,12 @@ app.put('/test_put/:id', function (req, res) {
         res.json(err);
     })
 });
+
+// DELETE
+app.delete('/test_delete/:id', function (req, res) {
+    var id = req.params.id;
+
+    dbConnection.query('delete from member where id=?', [id], function (err, rows,fields) {
+        res.json(err);
+    })
+});
