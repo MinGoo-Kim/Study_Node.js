@@ -1,0 +1,14 @@
+{
+  "name": "restful-api",
+  "version": "0.0.1",
+  "description": "restful api test project",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "mysql": "latest",
+    "body-parser": "latest",
+    "MD5": "latest"
+  }
+}
