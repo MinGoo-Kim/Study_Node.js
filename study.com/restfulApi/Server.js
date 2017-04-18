@@ -43,8 +43,8 @@ REST.prototype.configureExpress = function(connection) {
 
 // 서버 실행
 REST.prototype.startServer = function() {
-    app.listen(3000,function(){
-        console.log("All right ! I am alive at Port 3000.");
+    app.listen(8000,function(){
+        console.log("All right ! I am alive at Port 8000.");
     });
 }
 

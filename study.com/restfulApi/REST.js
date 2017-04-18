@@ -80,6 +80,22 @@ REST_ROUTER.prototype.handleRoutes= function(router,connection,md5) {
             }
         });
     });
+
+    // 크롬 확장프로그램 테스트
+    router.post("/test",function(req,res){
+        console.log("in api");
+        var query = "INSERT INTO ??(??) VALUES (?)";
+        var table = ["chrome_extension_test","text",req.body.text];
+        console.log(req.body.text);
+        query = mysql.format(query,table);
+        connection.query(query,function(err,rows){
+            if(err) {
+                res.json({"Error" : true, "Message" : "Error executing MySQL query"});
+            } else {
+                res.json({"Error" : false, "Message" : "Body Text Added !"});
+            }
+        });
+    });
 }
 
 module.exports = REST_ROUTER;
