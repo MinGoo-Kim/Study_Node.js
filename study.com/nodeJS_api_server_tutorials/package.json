@@ -1,0 +1,31 @@
+{
+  "name": "wik-server",
+  "version": "1.0.0",
+  "description": "this is wik server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MinGoo-Kim@gitlab.com/yaenedeul/WIK_server.git"
+  },
+  "keywords": [
+    "WIK"
+  ],
+  "author": "yaenedeul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/yaenedeul/WIK_server/issues"
+  },
+  "homepage": "https://gitlab.com/yaenedeul/WIK_server#README",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "sequelize": "^3.30.4"
+  }
+}
