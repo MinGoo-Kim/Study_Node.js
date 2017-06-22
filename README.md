@@ -1,7 +1,9 @@
 # Study_Node.js
 
-Node.js Study Repository, Tutorial for creating a REST API
+- Node.js Study Repository, Tutorial for creating a REST API
+- With JavaScript studying
 
+### Reference
 * http://webframeworks.kr/tutorials/nodejs/api-server-by-nodejs-01/
 * http://webframeworks.kr/tutorials/nodejs/api-server-by-nodejs-02/
 * http://webframeworks.kr/tutorials/nodejs/api-server-by-nodejs-03/
