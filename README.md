@@ -3,7 +3,7 @@
 - Node.js Study Repository, Tutorial for creating a REST API
 - With JavaScript studying
 
-### Reference
+### REST API
 * http://webframeworks.kr/tutorials/nodejs/api-server-by-nodejs-01/
 * http://webframeworks.kr/tutorials/nodejs/api-server-by-nodejs-02/
 * http://webframeworks.kr/tutorials/nodejs/api-server-by-nodejs-03/
@@ -15,3 +15,7 @@
 * https://velopert.com/332
 * https://velopert.com/406
 * https://velopert.com/594
+
+### Promise
+* http://bcho.tistory.com/1086
+* http://programmingsummaries.tistory.com/325
