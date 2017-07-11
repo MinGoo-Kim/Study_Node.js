@@ -212,3 +212,16 @@ var promise2 = new Promise(function (resolved, rejected) {
 Promise.all([promise1, promise2]).then(function (values) { // return new Promise 라면 [promise1(), promise2()]
     console.log("모두 완료됨", values);
 });
+
+/**
+ * Promise for Loop
+ * 출처: https://stackoverflow.com/questions/40328932/javascript-es6-promise-for-loop
+ * */
+var array = [1,2,3,4,5,6,7,8,9,10];
+
+(function loop(i) {
+    if (i < array.length) new Promise(resolve => {
+        console.log(array[i]);
+        setTimeout(resolve, Math.random() * 1000);
+    }).then(loop.bind(null, i+1));
+})(0);
